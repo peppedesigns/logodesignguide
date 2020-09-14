@@ -3,7 +3,7 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(./fonts/source-sans-pro/source-sans-pro.css);
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -11,13 +11,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --background-color: #191919;
-  --main-font: Source Sans Pro, Helvetica, sans-serif;
+  --background-color: #ffffb1;
+  --main-font: 'Karla', sans-serif;
   --main-font-size: 42px;
   --main-color: #fff;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: Source Sans Pro, Helvetica, sans-serif;
+  --heading-font: 'Karla', sans-serif;
   --heading-color: #fff;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
@@ -35,12 +35,16 @@ section.has-light-background, section.has-light-background h1, section.has-light
   --selection-background-color: #bee4fd;
   --selection-color: #fff; }
 
+  .reveal {
+    font-size: 28px !important;
+  }
+
 .reveal-viewport {
   background: #191919;
   background-color: #191919; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
   font-size: 42px;
   font-weight: normal;
   color: #fff; }
@@ -71,7 +75,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #fff;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -246,12 +250,12 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * LINKS
  *********************************************/
 .reveal a {
-  color: #42affa;
+  color: #481aff;
   text-decoration: none;
   transition: color .15s ease; }
 
 .reveal a:hover {
-  color: #8dcffc;
+  color: #894096;
   text-shadow: none;
   border: none; }
 
@@ -277,7 +281,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: #42affa; }
+  color: #481aff; }
 
 /*********************************************
  * PROGRESS BAR
@@ -292,3 +296,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
 @media print {
   .backgrounds {
     background-color: #191919; } }
+
+
+.logo {
+  position: absolute;
+  z-index: 9;
+  height: 10%;
+  width: auto;
+  right: 30px;
+  top: 20px;
+}
